@@ -74,18 +74,19 @@ body {
    =================== */
 
 .header-container {
+	background-image:url('../img/sunset.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
     border-bottom: 20px solid #5C1ED0;
+    height: 200px;
 }
 
-.footer-container
-/*.main aside*/ {
-	/*width: 100%;
-	position: fixed;
-	bottom: 0px;*/
-    border-top: 20px solid #5C1ED0;
+.footer-container {
+clear: both;
+	border-top: 20px solid #5C1ED0;
 }
 
-.header-container,
+
 .footer-container
 /*.main aside*/ {
     background: #8415D4;
@@ -123,6 +124,10 @@ nav a {
     border: thin #333 solid;
 }    
 
+.active {
+	background-color:#9966FF;
+}
+
 nav a:hover,
 nav a:visited {
     color: white;
@@ -134,12 +139,9 @@ nav a:hover {
 }
 
 nav a:active {
-	background-color: fuchsia;
+	background-color: #990099;
 }
 
-nav a:link {
-	color:aqua;
-}
 
 /* ==============
     MOBILE: Main
@@ -150,17 +152,10 @@ nav a:link {
 	margin: 10px;
 }
 
-a {
-	text-decoration: none;
-}
-
-ul {
-	list-style-type: none;
-}
-
 h1 {
+	font-size: 250%;
 	text-align: center;
-	font-family: 'Passion One', cursive;
+	font-family: 'Pathway Gothic One', sans-serif;
 }
 
 h4 {
@@ -185,6 +180,21 @@ h4 {
 	text-decoration:none;
 }
 
+section li{
+	display: inline;
+}
+
+article section {
+	margin: 1%;
+	padding: 0.5%;
+	border: thin black solid;
+}
+
+article img {
+	float: left;
+	margin: 5px;
+}
+
 footer a{
 	display: block;
     margin-bottom: 0px;
@@ -202,13 +212,6 @@ footer a{
 
 footer ul {
 	list-style-type: none;
-}
-
-
-article section {
-	margin: 1%;
-	padding: 0.5%;
-	border: thin black solid;
 }
 
 
@@ -245,7 +248,7 @@ aside a {
 
 .footer-container footer {
     color: white;
-    padding: 20px 0;
+    padding: 20px ;
     background-color: #8415D4;
 }
 
@@ -307,7 +310,7 @@ aside a {
    ======================== */
    
 aside a {
-	font-size: 400%;
+	font-size: 380%;
 }
     nav ul li {
         display: inline;
@@ -316,6 +319,15 @@ aside a {
     .oldie nav a {
         margin: 0 0.7%;
     }
+    
+    h1 {
+	font-size: 380%;
+}
+
+.header-container {
+	
+	 height: 300px;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -345,7 +357,7 @@ aside a {
 	}
 	
 	h1 {
-		font-size: 220%;
+		font-size: 300%;
 		margin-top: 5.5%;
 	}
 
@@ -386,7 +398,7 @@ aside a {
 }
    
    h1 {
-	font-size: 330%;
+	font-size: 450%;
 		margin-top: 5.5%;
 	}
 
@@ -394,6 +406,11 @@ aside a {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
+    .header-container{
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 /* ==========================================================================
