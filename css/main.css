@@ -1,4 +1,11 @@
-﻿/* ==========================================================================
+﻿/***File Name: main.css
+	Author Name: Natasha Whitehead
+	Website Name: Natasha Whitehead's Portfolio Website
+	File Discription: This is the file that contains all of the styles for the webpage and makes everything look 
+	visually appealing and attractive to the user.*/
+
+
+/* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
@@ -55,12 +62,17 @@ textarea {
     padding: 0.2em 0;
 }
 
+body {
+	font-family: 'Gudea', sans-serif;
+}
+
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
+a {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
@@ -139,7 +151,7 @@ nav a:hover {
 }
 
 nav a:active {
-	background-color: #990099;
+	background-color: #A90CEB;
 }
 
 
@@ -194,6 +206,23 @@ article img {
 	float: left;
 	margin: 5px;
 }
+
+#resume a{
+	display: block;
+    margin-bottom: 0px;
+    padding: 10px 1.5%;
+
+	clear: both;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #8415D4;
+    border: thin #8022EB solid;
+}
+
+
 
 footer a{
 	display: block;
@@ -349,8 +378,7 @@ aside a {
    
    aside a {
 	font-size: 210%;
-}
-   
+}      
    
    #img {
 		width: 50%;

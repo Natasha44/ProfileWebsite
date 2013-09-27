@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿<!--File Name: projects.html
+	Author Name: Natasha Whitehead
+	Website Name: Natasha Whitehead's Portfolio Website
+	File Discription: This is the projects page file in which the user will be able to see some of the projects I have already done.
+	It gives the user a chance to click on the various projects and see the actual project file and see what went into the different projects-->
+
+
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -6,45 +13,45 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Projects</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/logo_font.css">
-         <!-- bjqs.css contains the *essential* css needed for the slider to work -->
-    <link rel="stylesheet" href="bjqs.css">
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    	<link rel="stylesheet" href="bjqs.css">
 
     <!-- some pretty fonts for this demo page - not required for the slider -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'> 
+    	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Open+Sans:300' rel='stylesheet' type='text/css'> 
 
     <!-- demo.css contains additional styles used to set up this demo page - not required for the slider --> 
-    <link rel="stylesheet" href="demo.css">
-    <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+   		<link rel="stylesheet" href="demo.css">
+   	<!-- Google fonts for the header and the body -->
+    	<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'> 
     <!-- load jQuery and the plugin -->
-    <script src="jquery-1.7.1.min.js"></script>
-    <script src="js/bjqs-1.3.min.js"></script>
-
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        
+    	<script src="jquery-1.7.1.min.js"></script>
+    	<script src="js/bjqs-1.3.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>   
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+	<!--Logo and Name-->
         <div class="header-container">
             <header class="wrapper clearfix">
-            	<img src="img/logo.png" id="img"/>
+            	<img src="img/logo.png" id="img" alt="Logo"/>
                 <h1 class="title">Natasha Whitehead</h1>
             </header>
         </div>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
-			<nav>
+				<nav>
                     <ul>
                         <li><a href="index.html"><div class="icon-home">Home</div></a></li>
                         <li><a href="about.html"><div class="icon-user">About Me</div></a></li>
@@ -53,41 +60,31 @@
                         <li><a href="contact.html"><div class="icon-mail-alt">Contact Me</div></a></li>
                         <li><a href="https://github.com/Natasha44"><div class="icon-github"> GitHub</div></a></li>
                     </ul>
-              </nav>
-              
-            
+              	</nav>
+              	<!--Files for the different projects-->
                 <article>
-                	<section>
-                	<h3>Projects</h3>
-                        <ul>
-          					<li><a href="#"><img src="img/Small-Talk-image.jpg" width="30%" title="Web Development"></a></li>
-          					<li><a href="#"><img src="img/banner01.jpg" width="30%" title="Application Development"></a></li>
-          					<li><a href="#"><img src="img/Small-Talk-image.jpg" width="30%" title="Graphic Design"></a></li>
-        				</ul>
-        				</section>
-               </article>
-               	<aside>
-                    <!--<h3>Keep Connected</h3>-->
-                    <p></p>
-                    <ul>               
-                    	<li><a href="#"><div class="icon-github"></div></a></li>
-                    	<li><a href="#"><div class="icon-facebook-rect"></div></a></li>
-                    	<li><a href="#"><div class="icon-twitter-bird"></div></a></li>
-                    	<li><a href="#"><div class="icon-linkedin-rect"></div></a></li>
-                    </ul>
-                  
-                	</aside>
-
-                
+                	<header>
+                		<h3>Projects</h3>
+                		<p>Click the images to take you to the different project files</p>
+                        	<ul>
+          						<li><a href="https://github.com/Natasha44/TechnologyWebsite"><img src="img/webDevelopment.jpg" width="30%" title="Web Development" alt="Web Developmet"></a></li>
+          						<li><a href="https://github.com/Natasha44/Speakers"><img src="img/arduino.jpg" width="30%" title="Application Development" alt="Application Development"></a></li>
+          						<li><a href="image.html"><img src="img/graphic.jpg" width="30%" title="Graphic Design" alt="Graphic Design"></a></li>
+          					</ul>
+        			</header>
+               	</article>
+ 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
+		<!--Footer and Copyright-->
         <div class="footer-container">
             <footer class="wrapper">
                 <h3>&copy; Natasha Whitehead 2013</h3>
             </footer>
         </div>
-
+        
+		<!--JavaScript Elements-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
